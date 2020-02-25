@@ -38,7 +38,7 @@ class GalleryViewController: UIViewController {
             }
             
             self.ownerPhotos = photos?.photos?.allPhotos ?? []
-            print("photos \(photos?.photos?.allPhotos?.count)")
+//            print("photos \(photos?.photos?.allPhotos?.count)")
         }
     }
     
