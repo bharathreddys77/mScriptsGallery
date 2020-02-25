@@ -58,7 +58,9 @@ extension mScriptsServiceController {
                 return
             }
             if let response = urlResponse {
+//                print("decodableData \(String(data: responseData!, encoding: .utf8))")
                 let statusCode = (response as! HTTPURLResponse).statusCode
+                print("statusCode \(statusCode)")
                 if statusCode == 200 {
                     guard let decodableData = responseData else {
                         DispatchQueue.main.async {

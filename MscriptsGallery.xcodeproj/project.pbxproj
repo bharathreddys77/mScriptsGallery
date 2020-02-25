@@ -20,6 +20,10 @@
 		CD052B5B240279590099681C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD052B5A240279590099681C /* Assets.xcassets */; };
 		CD052B5E240279590099681C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD052B5C240279590099681C /* LaunchScreen.storyboard */; };
 		CD052B69240279590099681C /* MscriptsGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD052B68240279590099681C /* MscriptsGalleryTests.swift */; };
+		CDC4E8B524057A0800E70066 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4E8B424057A0800E70066 /* PhotoViewModel.swift */; };
+		CDC4E8B724057E9A00E70066 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4E8B624057E9A00E70066 /* AsynchronousOperation.swift */; };
+		CDC4E8B92405818500E70066 /* PhotoDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4E8B82405818500E70066 /* PhotoDownloadManager.swift */; };
+		CDC4E8BB24059CCD00E70066 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4E8BA24059CCD00E70066 /* ViewHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		CD052B64240279590099681C /* MscriptsGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MscriptsGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD052B68240279590099681C /* MscriptsGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MscriptsGalleryTests.swift; sourceTree = "<group>"; };
 		CD052B6A240279590099681C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC4E8B424057A0800E70066 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		CDC4E8B624057E9A00E70066 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
+		CDC4E8B82405818500E70066 /* PhotoDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloadManager.swift; sourceTree = "<group>"; };
+		CDC4E8BA24059CCD00E70066 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		CD01DA842402E3D600CD9576 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CDC4E8B424057A0800E70066 /* PhotoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -99,6 +108,8 @@
 				CD01DA872402E3F200CD9576 /* AppConstants.swift */,
 				CD01DA892402E49000CD9576 /* NetworkingController.swift */,
 				CD01DA8B2402E4D600CD9576 /* mScriptsServiceController.swift */,
+				CDC4E8B624057E9A00E70066 /* AsynchronousOperation.swift */,
+				CDC4E8B82405818500E70066 /* PhotoDownloadManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -147,6 +158,7 @@
 				CD01DA842402E3D600CD9576 /* ViewModels */,
 				CD01DA812402E38000CD9576 /* Protocols */,
 				CD052B51240279570099681C /* AppDelegate.swift */,
+				CDC4E8BA24059CCD00E70066 /* ViewHelper.swift */,
 				CD052B53240279570099681C /* SceneDelegate.swift */,
 				CD052B57240279570099681C /* Main.storyboard */,
 				CD052B5A240279590099681C /* Assets.xcassets */,
@@ -272,9 +284,13 @@
 				CD01DA912402E64B00CD9576 /* Photo.swift in Sources */,
 				CD01DA8C2402E4D600CD9576 /* mScriptsServiceController.swift in Sources */,
 				CD01DA8F2402E54400CD9576 /* NetworkManager.swift in Sources */,
+				CDC4E8BB24059CCD00E70066 /* ViewHelper.swift in Sources */,
 				CD01DA8A2402E49000CD9576 /* NetworkingController.swift in Sources */,
 				CD052B54240279570099681C /* SceneDelegate.swift in Sources */,
 				CD01DA882402E3F200CD9576 /* AppConstants.swift in Sources */,
+				CDC4E8B524057A0800E70066 /* PhotoViewModel.swift in Sources */,
+				CDC4E8B92405818500E70066 /* PhotoDownloadManager.swift in Sources */,
+				CDC4E8B724057E9A00E70066 /* AsynchronousOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

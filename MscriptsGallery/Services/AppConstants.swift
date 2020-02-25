@@ -9,8 +9,11 @@
 import Foundation
 
 struct AppConstants {
+    
+//    date_upload, date_taken, owner_name
+    
     static let BASE_URL = "https://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos"
     static let API_KEY = "&api_key=14d0e399ff364032fd6c20dfd2aa160c"
     static let USER_ID = "&user_id=38992722@N03"
-    static let FORMAT = "&format=json&nojsoncallback=1"
+    static let FORMAT = "&format=json&nojsoncallback=1&extras=date_upload,date_taken,owner_name"
 }

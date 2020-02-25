@@ -25,4 +25,9 @@ enum NetworkControllerError:Error {
     case defaultError
     case NoDataError
     case inputValidationError
+    case FlickrError(code:Int,message:String?,status:Bool)
+}
+
+struct FlickrError:Decodable {
+
 }
